@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_pink"
+    tools:context=".CallHim">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="200px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editPhoneNumber"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="untuk: Fadhil Sang Simbol Harapan"
+            android:textSize="19sp"
+            android:textColorHint="#FFDEEA">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editMessage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#FFDEEA"
+            android:gravity="top"
+            android:hint="                                                                                           Tulis keluh kesah kamu di sini, untuk dikirim kepada Sang Simbol Harapan."
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:textColor="#F783AC"
+            android:textColorHint="#F783AC"></EditText>
+
+        <ImageButton
+            android:id="@+id/idSend"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/tbl_kirim">
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>
