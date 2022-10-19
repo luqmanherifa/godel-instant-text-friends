@@ -1,1 +1,1 @@
-# Godel - Hubungi Teman
+# Godel: Hubungi Teman
